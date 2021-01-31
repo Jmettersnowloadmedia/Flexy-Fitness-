@@ -6,6 +6,13 @@ h1, h2, h3 {
     font-family: "Lobster", cursive;
 }
 
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
 h2 {
     color: #3046c5;
 }
