@@ -48,3 +48,11 @@ footer {
   border: 1px solid #DDD;
   border-top: none;
   padding: 10px; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: #ffffff; }
+
+#loginModal .modal-content .modal-header {
+  background-color: #901CAD;
+  color: #ffffff; }
