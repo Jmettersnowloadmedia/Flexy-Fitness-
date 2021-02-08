@@ -1,0 +1,63 @@
+body {
+  font-family: "Open sans", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.bg1::after {
+  background-image: url("/images/background-1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.bg2::after {
+  background-image: url("/images/background-2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.bg3:after {
+  background-image: url("/images/background-3.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.card-img-top {
+  height: 299.72px; }
+
+h1, h2, h3 {
+  font-family: "Lobster", cursive; }
+
+img {
+  height: auto;
+  width: 100%; }
+
+.nav-item .nav-link {
+  color: rgba(0, 0, 0, 0.6); }
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1; }
+
+.section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000; }
+
+.static {
+  background: #fafafa; }
+
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px; }
+
+.wrapper h1 {
+  color: red; }

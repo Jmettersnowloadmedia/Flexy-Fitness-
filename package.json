@@ -1,0 +1,24 @@
+{
+  "name": "flexyfitness",
+  "version": "1.0.0",
+  "description": "Gym Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "James Metters",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
