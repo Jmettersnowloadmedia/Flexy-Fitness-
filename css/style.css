@@ -18,11 +18,14 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat; }
 
+.card {
+  border-bottom: 4rem solid #30353f; }
+
 .card-img-top {
   height: 299.72px; }
 
-h1, h2, h3 {
-  font-family: "Lobster", cursive; }
+h1, h2 {
+  font-family: "Lexend Mega", sans-serif; }
 
 img {
   height: auto;
@@ -61,3 +64,37 @@ img {
 
 .wrapper h1 {
   color: red; }
+
+.read-more {
+  position: relative;
+  border-bottom: 6px solid #303535; }
+  .read-more a {
+    display: block;
+    position: relative;
+    height: 2rem;
+    outline: none;
+    text-align: right;
+    background-color: #fff; }
+    .read-more a .before {
+      float: right;
+      border-bottom: 2rem solid #30353f;
+      border-left: 2rem solid transparent; }
+    .read-more a .more {
+      float: right;
+      position: relative;
+      bottom: 0;
+      width: 12rem;
+      height: 2rem;
+      margin-right: 0;
+      padding: .8rem 2.5rem 0;
+      color: #fff;
+      background-color: #30353f;
+      font-size: 1.2rem;
+      font-weight: 700;
+      line-height: 1;
+      text-align: right;
+      text-transform: lowercase; }
+
+.card-body-now .more {
+  position: relative;
+   }

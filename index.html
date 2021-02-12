@@ -7,8 +7,8 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">        <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /> 
     
         <title>Flexy Fitness</title>
@@ -21,7 +21,7 @@
     </a>
     <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#">About</a>
+          <a class="nav-link active" href="#about">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="login.html">Zoom Library</a>
@@ -45,21 +45,21 @@
         <section class="section parallax bg1">
            
         </section>
-        <section class="section static">
+        <section id="about" class="section static">
             <container>
                 <row>
                     <column class="col">
-                        <h2 class="align-items-center mx-6">What is Flexy Fitness?</h2>
+                        <h2 class="text-center mx-6">What is Flexy Fitness?</h2>
                     </column>
                 </row>
                 <row>
-                    <column class="col align-items-center">
+                    <div class="col align-items-center">
                         <p class="mx-4">
                             Looking and feeling good is not exclusive to any one season or body type. Anyone can get fit, but it requires motivation, and access to knowledge and resources. My name is Phil Jackson, and I am your passport to fitness. 
                             Client accessibility is the focal point of my mission. I work with people of all levels of experience and physical stature. All professions and all schedules. They run the gamut, as do my services.
                             Calisthenics. Plyometrics. Cardiovascular and weight-based training. If making it to a gym isn't feasible, I provide daily online workouts, or I can bring equipment to you. I'm here to help you find and make the time.
                             Aesthetics are the product of hard work and dedication. No easy buckets.
-                        </p>
+                        </div>
                     </column>
                 </row>
             </container>
@@ -67,17 +67,18 @@
         <section class="section parallax bg2">
            <containter>
                <row>
-                   <column class="col">
-                    <h4>What are people saying ?</h4>
-                    <h2>Testemonials</h2>
-                    <button class="btn btn-outline-primary btn-large">Listen In</button>
-                </column>
+                   <div class="col mb-5">
+                    <h2 class="text-white">Testimonials</h2>
+                    <div class="read-more"><a class="read-more-link" href="#"><div class="more">Listen In</div><span class="before"></span></span></a></div>
+                  </div>
                </row>
                <row>
-                   <column class="col">
-                    <h2>Testemonials</h2>
-                    <button class="btn btn-outline-primary btn-large">Hell Yes</button>
-                </column>
+                   <div class="col">
+                     <div class="post">
+                      <h2 class="text-white">Ready to get fit ?</h2>
+                      <div class="read-more"><a class="read-more-link" href="#"><div class="more">Hell Yes</div><span class="before"></span></span></a></div>
+                      </div>
+                   </div>
 
                </row>
            </containter>
